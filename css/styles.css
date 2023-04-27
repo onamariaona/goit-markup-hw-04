@@ -116,6 +116,13 @@ display: block;
 }
 /* section 1 */
 .hero {
+    background-image: url(../images/people1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+   margin-left: auto;
+   margin-right: auto;
+
    background-color: var(--bg-hero);
    padding-top: 188px;
    padding-bottom: 188px;
@@ -133,6 +140,7 @@ letter-spacing: 0.02em;
 color:var(--hero-titlle-color);
 }
 .hero-btn {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -211,6 +219,9 @@ color:var(--secondary-text-color);
 
 /* section 4 */
 .team{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+     0px 1px 1px rgba(46, 47, 66, 0.16), 
+     0px 2px 1px rgba(46, 47, 66, 0.08);
     padding: 120px 0;
     background-color: var(--bg-team);
 }
