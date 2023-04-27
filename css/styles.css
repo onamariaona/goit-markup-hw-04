@@ -261,6 +261,19 @@ color: var(--primary-text-color);
 .team-item{
     background-color: var(--bg-color);
 }
+
+/* customers */
+.customers{
+
+}
+.customers-list{
+    display: flex;
+    gap: 24px;
+}
+.customers-item{
+    width: calc((100% - 120px) / 6);
+    
+}
 /* footer */
 .footer {
    padding: 100px 0;
