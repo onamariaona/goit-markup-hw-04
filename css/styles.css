@@ -116,7 +116,7 @@ display: block;
 }
 /* section 1 */
 .hero {
-    background-image: url(../images/people1.jpg);
+    background-image:linear-gradient( rgba(46,47,66,0.7),rgba(46,47,66,0.7) ), url(../images/people1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -263,9 +263,7 @@ color: var(--primary-text-color);
 }
 
 /* customers */
-.customers{
 
-}
 .customers-list{
     display: flex;
     gap: 24px;
