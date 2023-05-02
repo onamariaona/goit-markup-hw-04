@@ -172,6 +172,15 @@ gap: 24px;
 .feature-item{
     width: calc((100% - 72px) / 4);
 }
+.icon-wrap{
+    height: 112px;
+    background: #F4F4FD;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
 .feature-title {
  margin-bottom: 8px;
     font-weight: 500;
